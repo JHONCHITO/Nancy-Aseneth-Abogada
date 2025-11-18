@@ -169,3 +169,60 @@ footer {
 body, main, section, ul, ol, li, p, span, h1, h2, h3, h4, h5, h6, label, input, button, textarea, a {
   font-weight: bold !important;
 }
+
+/* +++ NUEVO BLOQUE: Imagen/Texto PC lado a lado, CELULAR imagen arriba grande + texto abajo */
+.contenido-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.3rem 0;
+  justify-content: center;
+}
+
+.columna-imagen {
+  max-width: 350px;
+  min-width: 120px;
+  width: 100%;
+  text-align: center;
+}
+
+.columna-imagen img {
+  width: 100%;
+  max-width: 340px;
+  min-width: 90px;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 3px 10px #0001;
+}
+
+.columna-texto {
+  flex: 1;
+  min-width: 220px;
+  max-width: 720px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .contenido-info {
+    flex-direction: column;
+    gap: 1.1rem;
+    padding: 1.05rem 0.3rem;
+    text-align: center;
+  }
+  .columna-imagen {
+    max-width: 99vw;
+    margin: 0 auto;
+  }
+  .columna-imagen img {
+    width: 97vw;
+    max-width: 400px;
+    min-width: 140px;
+    display: block;
+    margin: 0 auto;
+  }
+  .columna-texto {
+    max-width: 99vw;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
