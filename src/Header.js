@@ -26,6 +26,7 @@ function Header() {
       tiltMaxAngleY={8}
       perspective={1100}
       scale={1.03}
+      transitionSpeed={1300}
       style={{ background: 'transparent', borderRadius: "0 0 13px 13px", margin: 0, padding: 0 }}
     >
       <header style={{
@@ -63,7 +64,7 @@ function Header() {
             </a>
           </span>
         </div>
-        {/* Menú horizontal en 3D */}
+        {/* Menú horizontal-grid */}
         <div style={{
           position: 'relative',
           background: 'linear-gradient(90deg, #ede6da 70%, #ddbc71 100%)',
@@ -74,7 +75,6 @@ function Header() {
           borderBottomLeftRadius: 11,
           borderBottomRightRadius: 11
         }}>
-          {/* Marca de agua */}
           <img
             src={balanza}
             alt="balanza fondo"
@@ -96,15 +96,15 @@ function Header() {
             position: 'relative',
             zIndex: 1,
             width: '100%',
-            display: 'flex',
-            flexWrap: 'nowrap',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(170px, 1fr))',
+            gap: '0.7rem',
             alignItems: 'center',
-            justifyContent: 'flex-start',
-            gap: '0.8rem',
-            overflowX: 'auto',
-            maxWidth: '100vw',
-            WebkitOverflowScrolling: 'touch',
-            paddingLeft: '0.19rem',
+            justifyItems: 'center',
+            padding: '0.75rem 1.2rem',
+            background: 'rgba(237,230,218, 0.97)',
+            borderRadius: '10px',
+            maxWidth: '100%',
           }}>
             {mainMenu.map(({ to, text }) => (
               <Link
@@ -123,6 +123,8 @@ function Header() {
                   transition: 'background 0.14s, color 0.14s, transform 0.20s, box-shadow 0.19s',
                   whiteSpace: 'nowrap',
                   boxShadow: location.pathname === to ? '0 2px 10px #bca97130' : 'none',
+                  margin: '0.15rem',
+                  textAlign: 'center'
                 }}
               >
                 {text}
@@ -153,27 +155,20 @@ function Header() {
             text-shadow: 0 2px 8px #fff6,0 1.3px 3.3px #b3852922;
             transform: perspective(320px) rotateY(7deg) scale(1.06) rotateX(2deg);
           }
-          @media (max-width: 700px) {
-            header > div {
-              height: 18px !important;
-              font-size: 0.91rem !important;
-              padding: 0 0.12rem !important;
-            }
+          @media (max-width: 850px) {
             nav {
-              gap: 0.14rem !important;
-              padding: 0.09rem 0.04rem 0.09rem 0.04rem !important;
-              min-height: 30px !important;
-              max-width: 100vw !important;
-              overflow-x: auto !important;
+              grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+              gap: 0.45rem !important;
+              padding: 0.45rem 0.5rem !important;
             }
             nav a, nav .menu3d, nav .menu3d-active {
-              font-size: 0.94rem !important;
-              padding: 0.20rem 0.64rem !important;
+              font-size: 0.97rem !important;
+              padding: 0.36rem 0.6rem !important;
               border-radius: 10px !important;
               white-space: nowrap !important;
             }
             img[alt="balanza fondo"] {
-              height: 14px !important;
+              height: 22px !important;
             }
           }
           `}
