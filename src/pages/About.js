@@ -10,14 +10,14 @@ function About() {
         </div>
         <div className="columna-texto">
           <h2 style={{
-            color: '#1a4d7a',
+            color: '#014783ff',
             fontSize: '2rem',
             fontWeight: 'bold',
             marginBottom: '1rem'
           }}>Sobre Nosotros</h2>
           <p style={{
             fontSize: '1.29rem',
-            color: '#444',
+            color: '#040404ff',
             marginBottom: '0.8rem',
             lineHeight: '1.63'
           }}>

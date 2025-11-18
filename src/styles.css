@@ -58,7 +58,7 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
   transition: all 0.3s ease;
   padding: 0.6rem 1.1rem;
@@ -68,7 +68,7 @@ nav a {
 
 nav a:hover {
   color: #d4af37;
-  background-color: rgba(255,255,255,0.08);
+  background-color: rgba(18, 2, 2, 0.81);
   border-bottom-color: #d4af37;
 }
 
@@ -83,9 +83,9 @@ section {
   margin: 0 auto 2.7rem auto;
   animation: fadeIn 0.6s ease-in;
   max-width: 1120px;
-  background: rgba(227, 232, 201, 0.93);
+  background: rgba(240, 235, 225, 0.77);
   border-radius: 20px;
-  box-shadow: 0 6px 28px rgba(40, 60, 120, 0.12);
+  box-shadow: 0 6px 28px rgba(11, 13, 20, 0.12);
   padding: 2.2rem 1rem;
 }
 
