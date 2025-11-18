@@ -4,7 +4,7 @@ import heroImage from '../assets/imagen5.jpg';
 function Home() {
   return (
     <>
-      <section style={{
+      <section className="home-bg-centro" style={{
         width: '100vw',
         minHeight: '480px',
         background: '#232c3b',
@@ -13,7 +13,7 @@ function Home() {
         alignItems: 'center',
         padding: '3rem 0'
       }}>
-        <div style={{
+        <div className="home-content-centro" style={{
           maxWidth: 1050,
           width: '100%',
           display: 'flex',
@@ -29,7 +29,12 @@ function Home() {
               borderRadius: '20px',
               padding: '2.2rem 1.2rem',
               boxShadow: '0 7px 24px #2225',
-              marginBottom: '2rem'
+              marginBottom: '2rem',
+              width: '100%',
+              maxWidth: 440,
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              textAlign: 'center'
             }}
           >
             <div style={{
@@ -98,12 +103,16 @@ function Home() {
               alt="Abogada Vim Legis"
               className="hero-image-principal"
               style={{
-                width: 600,
-                height: 600,
+                width: 330,
+                maxWidth: '95vw',
+                height: 'auto',
                 objectFit: 'cover',
                 borderRadius: '18px',
                 boxShadow: '0 7px 18px #232c3b85',
-                marginBottom: '1.25rem'
+                marginBottom: '1.25rem',
+                display: 'block',
+                marginLeft: 'auto',
+                marginRight: 'auto'
               }}
             />
             <h2 style={{

@@ -231,16 +231,35 @@ body, main, section, ul, ol, li, p, span, h1, h2, h3, h4, h5, h6, label, input, 
   }
 }
 @media (max-width: 768px) {
-  .img-principal {
+  .home-bg-centro, .home-content-centro, .home-text-block {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    text-align: center !important;
+  }
+  .home-bg-centro {
+    width: 98vw !important;
+    max-width: 98vw !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .home-text-block {
+    width: 95vw !important;
+    max-width: 400px !important;
+    border-radius: 18px !important;
+    box-shadow: 0 8px 32px #2226 !important;
+    padding: 2.1rem 0.7rem !important;
+  }
+  .hero-image-principal {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 10px !important;
+    margin-top: 12px !important;
     margin-bottom: 10px !important;
-    width: 95vw !important;
-    max-width: 350px !important;
+    width: 96vw !important;
+    max-width: 330px !important;
     height: auto !important;
-    border-radius: 18px;
-    box-shadow: 0 3px 16px #232c3b40;
+    border-radius: 18px !important;
+    box-shadow: 0 3px 16px #232c3b40 !important;
   }
 }
