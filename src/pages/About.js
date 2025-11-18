@@ -13,7 +13,7 @@ function About() {
     }}>
       <div style={{
         width: '100%',
-        maxWidth: '370px',
+        maxWidth: '600px',
         background: 'white',
         borderRadius: '16px',
         boxShadow: '0 8px 32px rgba(40,60,120,0.1)',

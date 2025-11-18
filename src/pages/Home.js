@@ -85,8 +85,8 @@ function Home() {
               src={heroImage}
               alt="Abogada Vim Legis"
               style={{
-                width: 385,
-                height: 385,
+                width: 600,
+                height: 600,
                 objectFit: 'cover',
                 borderRadius: '18px',
                 boxShadow: '0 7px 18px #232c3b85',

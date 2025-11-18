@@ -14,7 +14,7 @@ function RecursosApelaciones() {
       <div
         style={{
           width: '100%',
-          minHeight: '410px',
+          minHeight: '600px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
