@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Georgia', 'Times New Roman', serif;
-  background: linear-gradient(120deg, #f5fafc 0%, #e2ebf6 100%);
+  background: linear-gradient(120deg, #fcfaf5ff 0%, #f6f1e2ff 100%);
   color: #1a283b;
   line-height: 1.6;
   min-height: 100vh;
@@ -83,7 +83,7 @@ section {
   margin: 0 auto 2.7rem auto;
   animation: fadeIn 0.6s ease-in;
   max-width: 1120px;
-  background: rgba(255,255,255,0.93);
+  background: rgba(227, 232, 201, 0.93);
   border-radius: 20px;
   box-shadow: 0 6px 28px rgba(40, 60, 120, 0.12);
   padding: 2.2rem 1rem;

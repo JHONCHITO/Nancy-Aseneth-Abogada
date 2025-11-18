@@ -33,7 +33,7 @@ function IntervencionDelitos() {
           fontWeight: 'bold',
           marginBottom: '1rem'
         }}>🔹 Intervención en Todo Tipo de Delitos</h2>
-        <ul style={{padding:0, margin:'1rem 0', listStyle:'none', color:'#444', fontSize:'1.07rem'}}>
+        <ul style={{padding:0, margin:'1rem 0', listStyle:'none', color:'#444', fontSize:'1.37rem'}}>
           <li style={{padding:'0.5rem 0'}}>Delitos contra las personas (homicidios, lesiones, amenazas, violencia de género).</li>
           <li style={{padding:'0.5rem 0'}}>Delitos contra la propiedad (hurtos, estafas).</li>
           <li style={{padding:'0.5rem 0'}}>Delitos sexuales.</li>

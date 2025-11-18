@@ -34,14 +34,14 @@ function About() {
           marginBottom: '1rem'
         }}>Sobre Nosotros</h2>
         <p style={{
-          fontSize: '1.09rem',
+          fontSize: '1.29rem',
           color: '#444',
           marginBottom: '0.8rem',
           lineHeight: '1.63'
         }}>
           <b>VIM LEGIS</b> es una firma legal liderada por la abogada <b>Nancy Aseneth Melo</b>, especialista en Derecho Penal, Constitucional y Justicia Militar. Nuestra misión es defender, asesorar y orientar con ética y excelencia a nuestros clientes.
         </p>
-        <ul style={{padding:0,margin:'1rem 0',listStyle:'none',color:'#202F45',fontSize:'1.06rem'}}>
+        <ul style={{padding:0,margin:'1rem 0',listStyle:'none',color:'#202F45',fontSize:'1.36rem'}}>
           <li style={{padding:'0.28rem 0'}}>✓ Derecho Penal</li>
           <li style={{padding:'0.28rem 0'}}>✓ Derecho Constitucional</li>
           <li style={{padding:'0.28rem 0'}}>✓ Justicia Militar</li>

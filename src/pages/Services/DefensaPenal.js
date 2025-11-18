@@ -28,7 +28,7 @@ function DefensaPenal() {
           color: '#1a4d7a',fontSize:'2rem',fontWeight:'bold',marginBottom:'1rem'
         }}>🔹 Defensa Penal</h2>
         <ul style={{
-          padding:0,margin:'1rem 0',listStyle:'none',color:'#222',fontSize:'1.07rem'
+          padding:0,margin:'1rem 0',listStyle:'none',color:'#222',fontSize:'1.37rem'
         }}>
           <li style={{padding:'0.4rem 0'}}>Defensa de personas acusadas de delitos, desde faltas menores hasta crímenes graves.</li>
           <li style={{padding:'0.4rem 0'}}>Representación ante la policía, fiscalía y juzgados.</li>

@@ -33,7 +33,7 @@ function RepresentacionVictimas() {
           fontWeight: 'bold',
           marginBottom: '1rem'
         }}>🔹 Representación de Víctimas</h2>
-        <ul style={{padding:0, margin:'1rem 0', listStyle:'none', color:'#444', fontSize:'1.07rem'}}>
+        <ul style={{padding:0, margin:'1rem 0', listStyle:'none', color:'#444', fontSize:'1.37rem'}}>
           <li style={{padding:'0.5rem 0'}}>Acompañamiento en la presentación de denuncias o querellas.</li>
           <li style={{padding:'0.5rem 0'}}>Solicitud de medidas cautelares (protección, alejamiento, etc.).</li>
           <li style={{padding:'0.5rem 0'}}>Reclamación de indemnizaciones por daños y perjuicios.</li>

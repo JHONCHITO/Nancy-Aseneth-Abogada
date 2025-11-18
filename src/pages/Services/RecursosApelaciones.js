@@ -70,7 +70,7 @@ function RecursosApelaciones() {
             <li style={{margin:'2.1rem 0 1.2rem 0'}}>
               Recurso de apelación.
               <div style={{
-                fontSize:'1.07rem',
+                fontSize:'1.37rem',
                 color:'#ffe8bb',
                 fontWeight:400,
                 marginTop:'0.7rem',
@@ -82,7 +82,7 @@ function RecursosApelaciones() {
             <li style={{margin:'2.1rem 0 1.2rem 0'}}>
               Recurso de casación.
               <div style={{
-                fontSize:'1.07rem',
+                fontSize:'1.37rem',
                 color:'#ffe8bb',
                 fontWeight:400,
                 marginTop:'0.7rem',
@@ -94,7 +94,7 @@ function RecursosApelaciones() {
             <li style={{margin:'2.1rem 0 1rem 0'}}>
               Revisión de sentencias firmes.
               <div style={{
-                fontSize:'1.07rem',
+                fontSize:'1.37rem',
                 color:'#ffe8bb',
                 fontWeight:400,
                 marginTop:'0.7rem',

@@ -27,7 +27,7 @@ function FasesProceso() {
         <h2 style={{
           color: '#1a4d7a',fontSize:'2rem',fontWeight:'bold',marginBottom:'1rem'
         }}>🔹 Actuaciones en Distintas Fases del Proceso Penal</h2>
-        <ul style={{padding:0, margin:'1rem 0', listStyle:'none', color:'#444', fontSize:'1.07rem'}}>
+        <ul style={{padding:0, margin:'1rem 0', listStyle:'none', color:'#444', fontSize:'1.37rem'}}>
           <li style={{padding:'0.5rem 0'}}>
             <b>Fase de investigación (instrucción):</b> acompañamiento en declaraciones, recursos ante imputaciones.
           </li>

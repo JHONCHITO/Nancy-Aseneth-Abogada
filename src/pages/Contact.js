@@ -50,7 +50,7 @@ function Contact() {
         <form 
           onSubmit={handleSubmit} 
           style={{
-            background: '#f8f9fa',
+            background: '#7ab4eeff',
             borderRadius: '12px',
             boxShadow: '0 3px 13px rgba(40,60,120,0.04)',
             padding: '1.2rem 1rem',
@@ -134,14 +134,14 @@ function Contact() {
         </form>
         <div style={{
           textAlign: 'left',
-          background: '#fdf6eb',
+          background: '#d5b176ff',
           borderRadius: '11px',
           padding: '1.2rem 1rem 1.6rem 1rem',
           maxWidth: 480,
           margin: '0 auto'
         }}>
           <h3 style={{
-            fontSize: '1.17rem',
+            fontSize: '1.7rem',
             color: '#1a4d7a',
             fontWeight: 700,
             marginBottom: '0.6rem'

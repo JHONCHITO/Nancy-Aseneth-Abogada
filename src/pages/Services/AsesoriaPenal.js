@@ -28,7 +28,7 @@ function AsesoriaPenal() {
           color: '#1a4d7a',fontSize:'2rem',fontWeight:'bold',marginBottom:'1rem'
         }}>🔹 Asesoría Jurídica Penal</h2>
         <ul style={{
-          padding:0,margin:'1rem 0',listStyle:'none',color:'#202F45',fontSize:'1.07rem'
+          padding:0,margin:'1rem 0',listStyle:'none',color:'#202F45',fontSize:'1.37rem'
         }}>
           <li style={{padding:'0.4rem 0'}}>Evaluación de casos penales.</li>
           <li style={{padding:'0.4rem 0'}}>Análisis de riesgos legales.</li>
