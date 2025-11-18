@@ -170,7 +170,7 @@ body, main, section, ul, ol, li, p, span, h1, h2, h3, h4, h5, h6, label, input, 
   font-weight: bold !important;
 }
 
-/* +++ NUEVO BLOQUE: Imagen/Texto PC lado a lado, CELULAR imagen arriba grande + texto abajo */
+/* Layout para imagen/texto columnas lado a lado en PC, imagen arriba 100% centrada en móvil */
 .contenido-info {
   display: flex;
   align-items: center;
@@ -208,10 +208,14 @@ body, main, section, ul, ol, li, p, span, h1, h2, h3, h4, h5, h6, label, input, 
     gap: 1.1rem;
     padding: 1.05rem 0.3rem;
     text-align: center;
+    align-items: center;
   }
   .columna-imagen {
     max-width: 99vw;
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .columna-imagen img {
     width: 97vw;
