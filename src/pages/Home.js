@@ -20,54 +20,66 @@ function Home() {
           flexDirection: 'column',
           alignItems: 'center'
         }}>
-          <div style={{
-            color: '#FFD37B',
-            fontWeight: 700,
-            fontSize: '2.23rem',
-            fontFamily: 'Georgia,Times New Roman,serif',
-            marginBottom: '1rem',
-            textAlign: 'center'
-          }}>
-            Defendemos tus derechos
-          </div>
-          <h1 style={{
-            fontFamily: 'Georgia, Times New Roman, serif',
-            fontSize: '2.45rem',
-            fontWeight: 900,
-            color: '#fff',
-            margin: '0 0 1.05rem 0',
-            textAlign: 'center'
-          }}>
-            Firma Jurídica Especializada<br />
-            en Derecho Penal y Constitucional
-          </h1>
-          <div style={{
-            fontSize: '1.33rem',
-            marginBottom: '1.15rem',
-            color: '#dce3f5',
-            fontWeight: 500,
-            textAlign: 'center'
-          }}>
-            <b>Nancy Aseneth Melo</b> - Abogada. Especialista en derecho penal, constitucional y justicia militar.
-            Defensa, asesoría y respaldo legal para individuos y entidades.
-          </div>
-          <a
-            href="/contact"
+          {/* BLOQUE AZUL centrado */}
+          <div
+            className="home-text-block"
             style={{
-              background: '#FFD37B',
-              color: '#232C3B',
-              fontWeight: 'bold',
-              padding: '0.99rem 2.4rem',
-              borderRadius: '33px',
-              fontSize: '1.14rem',
-              letterSpacing: '1.2px',
-              boxShadow: '0 2px 6px #1c233166',
-              border: 'none',
-              textDecoration: 'none',
+              background: '#232c3b',
+              color: '#FFD37B',
+              borderRadius: '20px',
+              padding: '2.2rem 1.2rem',
+              boxShadow: '0 7px 24px #2225',
               marginBottom: '2rem'
+            }}
+          >
+            <div style={{
+              fontWeight: 700,
+              fontSize: '2.23rem',
+              marginBottom: '1rem',
+              textAlign: 'center'
             }}>
-            AGENDAR CONSULTA
-          </a>
+              Defendemos tus derechos
+            </div>
+            <h1 style={{
+              fontFamily: 'Georgia, Times New Roman, serif',
+              fontSize: '2.45rem',
+              fontWeight: 900,
+              color: '#fff',
+              margin: '0 0 1.05rem 0',
+              textAlign: 'center'
+            }}>
+              Firma Jurídica Especializada<br />
+              en Derecho Penal y Constitucional
+            </h1>
+            <div style={{
+              fontSize: '1.33rem',
+              marginBottom: '1.15rem',
+              color: '#dce3f5',
+              fontWeight: 500,
+              textAlign: 'center'
+            }}>
+              <b>Nancy Aseneth Melo</b> - Abogada. Especialista en derecho penal, constitucional y justicia militar.
+              Defensa, asesoría y respaldo legal para individuos y entidades.
+            </div>
+            <a
+              href="/contact"
+              style={{
+                background: '#FFD37B',
+                color: '#232C3B',
+                fontWeight: 'bold',
+                padding: '0.99rem 2.4rem',
+                borderRadius: '33px',
+                fontSize: '1.14rem',
+                letterSpacing: '1.2px',
+                boxShadow: '0 2px 6px #1c233166',
+                border: 'none',
+                textDecoration: 'none',
+                marginBottom: '1rem',
+                display: 'inline-block'
+              }}>
+              AGENDAR CONSULTA
+            </a>
+          </div>
           {/* Bloque imagen y perfil */}
           <div style={{
             width: '100%',
