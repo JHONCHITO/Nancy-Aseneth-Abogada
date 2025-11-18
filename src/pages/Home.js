@@ -3,12 +3,23 @@ import heroImage from '../assets/imagen5.jpg';
 
 function Home() {
   return (
-    <section>
-      <div className="contenido-info">
-        <div className="columna-imagen">
-          <img src={heroImage} alt="Abogada Vim Legis" />
-        </div>
-        <div className="columna-texto">
+    <>
+      <section style={{
+        width: '100vw',
+        minHeight: '480px',
+        background: '#232c3b',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: '3rem 0'
+      }}>
+        <div style={{
+          maxWidth: 1050,
+          width: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center'
+        }}>
           <div style={{
             color: '#FFD37B',
             fontWeight: 700,
@@ -53,41 +64,66 @@ function Home() {
               boxShadow: '0 2px 6px #1c233166',
               border: 'none',
               textDecoration: 'none',
-              marginBottom: '2rem',
-              display: 'inline-block'
+              marginBottom: '2rem'
             }}>
             AGENDAR CONSULTA
           </a>
-          {/* Descripción de abogada */}
-          <h2 style={{
-            color: '#FFD37B',
-            fontWeight: 'bold',
-            fontSize: '2.1rem',
-            textAlign: 'center',
-            marginBottom: '0.85rem',
-            fontFamily: 'Georgia, Times New Roman, serif'
-          }}>Nancy Aseneth Melo</h2>
-          <h3 style={{
-            color: '#FFD37B',
-            fontWeight: 700,
-            fontSize: '1.15rem',
-            textAlign: 'center',
-            fontFamily: 'Georgia, Times New Roman, serif',
-            marginBottom: '.55rem'
-          }}>Abogada - Especialista en derecho penal, constitucional y justicia militar</h3>
-          <p style={{
-            color: '#ffd37b',
-            fontWeight: 'bold',
-            textAlign: 'center',
-            fontSize: '1.05rem',
-            marginBottom: '0.9rem',
-            fontFamily: 'Georgia, Times New Roman, serif'
+          {/* Bloque imagen y perfil */}
+          <div style={{
+            width: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            background: '#151A26',
+            borderRadius: '18px',
+            boxShadow: '0 10px 50px #10152425',
+            padding: '2.3rem 1.1rem',
+            maxWidth: 900,
+            margin: '0 auto'
           }}>
-            Defensa, asesoría y respaldo legal para individuos y entidades.
-          </p>
+            <img
+              src={heroImage}
+              alt="Abogada Vim Legis"
+              className="hero-image-principal"
+              style={{
+                width: 600,
+                height: 600,
+                objectFit: 'cover',
+                borderRadius: '18px',
+                boxShadow: '0 7px 18px #232c3b85',
+                marginBottom: '1.25rem'
+              }}
+            />
+            <h2 style={{
+              color: '#FFD37B',
+              fontWeight: 'bold',
+              fontSize: '2.1rem',
+              textAlign: 'center',
+              marginBottom: '0.85rem',
+              fontFamily: 'Georgia, Times New Roman, serif'
+            }}>Nancy Aseneth Melo</h2>
+            <h3 style={{
+              color: '#FFD37B',
+              fontWeight: 700,
+              fontSize: '1.15rem',
+              textAlign: 'center',
+              fontFamily: 'Georgia, Times New Roman, serif',
+              marginBottom: '.55rem'
+            }}>Abogada - Especialista en derecho penal, constitucional y justicia militar</h3>
+            <p style={{
+              color: '#ffd37b',
+              fontWeight: 'bold',
+              textAlign: 'center',
+              fontSize: '1.05rem',
+              marginBottom: '0.9rem',
+              fontFamily: 'Georgia, Times New Roman, serif'
+            }}>
+              Defensa, asesoría y respaldo legal para individuos y entidades.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
