@@ -182,7 +182,7 @@ function Home() {
                 color: '#ffd37b',
                 fontWeight: 'bold',
                 textAlign: 'center',
-                fontSize: '1.05rem',
+                fontSize: '1.06rem',
                 marginBottom: '0.9rem',
                 fontFamily: 'Georgia, "Times New Roman", serif',
               }}
