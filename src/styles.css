@@ -230,3 +230,17 @@ body, main, section, ul, ol, li, p, span, h1, h2, h3, h4, h5, h6, label, input, 
     text-align: left;
   }
 }
+@media (max-width: 768px) {
+  .img-principal {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 95vw !important;
+    max-width: 350px !important;
+    height: auto !important;
+    border-radius: 18px;
+    box-shadow: 0 3px 16px #232c3b40;
+  }
+}
