@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
+import Header from './Header'; // <-- Importa aquí TU Header.js nuevo
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -14,67 +15,6 @@ import RecursosApelaciones from './pages/Services/RecursosApelaciones';
 import bgGreek from './assets/hermosa-plantilla-griega-antigua.jpg';
 
 import './styles.css';
-
-const menuLink = {
-  color: '#efb810',
-  textDecoration: 'none',
-  fontWeight: 'bold',
-  fontSize: '1.11rem',
-  borderRadius: '7px',
-  padding: '0.41rem 1.2rem',
-  marginRight: '3px',
-  transition: 'background 0.13s'
-};
-
-function Header() {
-  return (
-    <header>
-      <div style={{
-        background: '#ddbc71',
-        color: '#232C3B',
-        height: '35px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        fontSize: '1rem',
-        padding: '0 2rem'
-      }}>
-        <span style={{
-          fontWeight: 'bold',
-          fontSize: '1.09rem',
-          letterSpacing: '2px',
-          fontFamily: 'Georgia, Times New Roman, serif'
-        }}>VIM LEGIS</span>
-        <span>
-          <a href="tel:+5732184799311" style={{ color: '#232C3B', fontWeight: 700, textDecoration:'none' }}>
-            +57 318 479 9311
-          </a>
-        </span>
-      </div>
-      {/* Menú horizontal */}
-      <nav style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: '1.15rem',
-        margin: 0,
-        padding: '1.15rem 0.6rem 1.1rem 0.6rem',
-        background: '#091a24c2',
-        fontFamily: 'Georgia, Times New Roman, serif'
-      }}>
-        <Link to="/" style={{ ...menuLink, background: '#FFD37B', color: '#232C3B' }}>Inicio</Link>
-        <Link to="/about" style={menuLink}>Sobre Nosotros</Link>
-        <Link to="/services/asesoria-penal" style={menuLink}>Asesoría Penal</Link>
-        <Link to="/services/defensa-penal" style={menuLink}>Defensa Penal</Link>
-        <Link to="/services/representacion-victimas" style={menuLink}>Representación Víctimas</Link>
-        <Link to="/services/intervencion-delitos" style={menuLink}>Intervención Delitos</Link>
-        <Link to="/services/fases-proceso" style={menuLink}>Fases del Proceso</Link>
-        <Link to="/services/recursos-apelaciones" style={menuLink}>Recursos y Apelaciones</Link>
-        <Link to="/contact" style={menuLink}>Contacto</Link>
-      </nav>
-    </header>
-  );
-}
 
 function Footer() {
   return (
@@ -129,7 +69,7 @@ function App() {
       position: 'relative',
     }}>
       <Router>
-        <Header />
+        <Header />                 {/* <-- Aquí tu header 3D nuevo */}
         <main style={{ background: "transparent" }}>
           <Routes>
             <Route path="/" element={<Home />} />
