@@ -43,7 +43,7 @@ function Footer() {
         >
           <FaInstagram />
         </a>
-        <a href="https://wa.me/573246467069" target="_blank" rel="noopener noreferrer"
+        <a href="https://wa.me/+573184799311" target="_blank" rel="noopener noreferrer"
           style={{color:'#25D366', fontSize:'2.3rem', textDecoration:'none', background:'#232C3B', borderRadius:'13px', padding:'0.5rem 0.85rem', display:'flex', alignItems:'center'}}
         >
           <FaWhatsapp />
