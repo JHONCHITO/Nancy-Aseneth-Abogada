@@ -1,5 +1,5 @@
 import React from 'react';
-import imgPenal from '../../assets/imagen6.jpg';
+import imgPenal from '../../assets/imagen1.jpg';
 
 // Colores y tipografía coherentes con el resto del sitio
 const GOLD = '#8F7324';      // dorado oscuro y lujoso
